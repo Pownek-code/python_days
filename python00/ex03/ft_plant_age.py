@@ -1,2 +1,3 @@
 def ft_plant_age():
-	print(f"{"Plant is ready to harvest!" if int(input("Enter plant age in days: ")) > 60 else "Plant needs more time to grow."}")
+	age = int(input("Enter plant age in days: "))
+	print(f"{"Plant is ready to harvest!" if age > 60 else "Plant needs more time to grow."}")
